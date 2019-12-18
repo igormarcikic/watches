@@ -1,0 +1,13 @@
+@mixin button {
+    background-color: #fff;
+    color: #304061;
+    padding: 24px 40px 24px 49px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 14px 97px -15px rgba(158,158,158,1);
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: lighten($main-color, 30%);
+    }
+  }

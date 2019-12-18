@@ -1,0 +1,127 @@
+.hero {
+    position: relative;
+    border-bottom: 4px solid #2f4061;
+    color: $secondary-color;
+
+    .hero-bg {
+        width: 100%;
+    }
+
+    .slider {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+
+        .slider-controls {
+            display: flex;
+            flex-direction: column;
+            margin: 0 225px 0 58px;
+            padding: 349px 0 301px;
+
+            .dot {
+                cursor: pointer;
+                height: 10px;
+                width: 10px;
+                margin-bottom: 26px;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+              }
+        }
+
+        .slider-body, .slider-body-1, .slider-body-2, .slider-body-3 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 168px;
+            transition: all 0.5s linear;
+
+            .slider-body-left {
+                width: 530px;
+
+                h3 {
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+                h1 {
+                    font-family: 'Butler';
+                    font-weight: medium;
+                    font-size: 83px;
+                    display: inline-block;
+                    margin: 32px 0 61px;
+                    line-height: 88px;
+                    letter-spacing: 1px;
+                    display: inline-block;
+                }
+
+                button {
+                    @include button;
+                }
+
+                .button-view {
+                    letter-spacing: 5px;
+                    margin: 0 30px 0 4px;
+                }
+
+                .button-explore {
+                    padding: 0;
+                    background-color: transparent;
+                    font-size: 19px;
+                    color: $main-color;
+
+                    &:hover {
+                        background-color: transparent;
+                    }
+
+                    img {
+                        display: inline-block;
+                        margin: 0 0 1px 9px;
+                    }
+                }
+            }
+
+            .slider-body-right {
+                padding: 20px 0 0 7px;
+            }
+        }
+    }
+
+    .slider-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .slider-content-controls {
+            padding-left: 5px;
+            display: flex;
+    
+            .left-control, .right-control {
+                width: 115px;
+                height: 115px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    background-color: lighten($main-color, 30%);
+                    cursor: pointer;
+                }
+
+                i {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+    .slider-inner {
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        overflow: hidden;
+    }
+    
+}
+

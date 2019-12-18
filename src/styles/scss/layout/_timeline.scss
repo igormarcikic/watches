@@ -1,0 +1,101 @@
+.timeline {
+    text-align: center;
+    color: $secondary-color;
+    position: relative;
+    margin-bottom: 80px;
+
+    h2 {
+        font-family: 'Butler';
+        font-weight: bold;
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+
+    .timeline-controls {
+
+        .timeline-left {
+            position: absolute;
+            top: 225px;
+            left: 50px;
+            cursor: pointer;
+        }
+        .timeline-right {
+            position: absolute;
+            top: 225px;
+            right: 50px;
+            cursor: pointer;
+        }
+    }
+
+    hr {
+        border: 3px solid $main-color;
+        height: 0;
+        margin: 0;
+    }
+
+    .content {
+        max-width: 1440px;
+        margin: auto;
+        overflow: hidden;
+
+        h3 {
+            color: $main-color;
+            font-family: 'Butler';
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-family: 'Lato';
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        
+
+        .top {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .line {
+                margin-top: auto;
+            }
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .block {
+            flex-basis: 230px;
+            flex-grow:0;
+            flex-shrink:0;
+            display: flex;
+            flex-direction: column;
+            margin: 0 50px;
+
+            &:hover {
+                flex-basis: 300px;
+                h3 {
+                    font-size: 55px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .line {
+                height: 30px;
+
+                div {
+                    border-left: 3px solid $main-color;
+                    transform: translateX(50%);
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

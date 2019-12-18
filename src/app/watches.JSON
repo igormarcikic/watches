@@ -1,0 +1,90 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "image": "./assets/images/alfredsung.png",
+            "brand": "ALFRED SUNG",
+            "collection": "Slim Collection Series 5",
+            "itemNo": "AS7104SL-1A",
+            "price": 3700,
+            "wholesale": 3700,
+            "color": "black",
+            "band": "solid",
+            "material": "titanium",
+            "features": ["GPS", "Waterproof", "Bluetooth"],
+            "gender": "m"
+        },
+        {
+            "id": 2,
+            "image": "./assets/images/garmin.png",
+            "brand": "GARMIN",
+            "collection": "Classic Collection",
+            "itemNo": "AW2304WE-9Q",
+            "price": 4200,
+            "wholesale": 4000,
+            "color": "brown",
+            "band": "leather",
+            "material": "steel",
+            "features": ["Waterproof"],
+            "gender": "m"
+        },
+        {
+            "id": 3,
+            "image": "./assets/images/alfredsung.png",
+            "brand": "ALFRED SUNG",
+            "collection": "Slim Collection Series 5",
+            "itemNo": "AS7104SL-1A",
+            "price": 3700,
+            "wholesale": 3700,
+            "color": "black",
+            "band": "solid",
+            "material": "titanium",
+            "features": ["GPS", "Waterproof", "Bluetooth"],
+            "gender": "m"
+        },
+        {
+            "id": 4,
+            "image": "./assets/images/wrangler.png",
+            "brand": "WRANGLER",
+            "collection": "Western Collection",
+            "itemNo": "AS7494SL-8R",
+            "price": 5600,
+            "wholesale": 5200,
+            "color": "orange",
+            "band": "leather",
+            "material": "cobarion",
+            "features": ["GPS", "Waterproof", "Weather"],
+            "gender": "f"
+        },
+        {
+            
+            "id": 5,
+            "image": "./assets/images/alfredsung.png",
+            "brand": "ALFRED SUNG",
+            "collection": "Slim Collection Series 5",
+            "itemNo": "AS7104SL-1A",
+            "price": 3700,
+            "wholesale": 3700,
+            "color": "black",
+            "band": "solid",
+            "material": "titanium",
+            "features": ["GPS", "Waterproof", "Bluetooth"],
+            "gender": "m"
+        },
+        {
+            
+            "id": 6,
+            "image": "./assets/images/garmindark.png",
+            "brand": "GARMIN DARK",
+            "collection": "Classic Collection Series 6",
+            "itemNo": "AS2E0G8E-2U",
+            "price": 2100,
+            "wholesale": 2000,
+            "color": "black",
+            "band": "leather",
+            "material": "diamon",
+            "features": ["Waterproof", "GPS", "Nightmode"],
+            "gender": "f"
+        }
+    ]
+}

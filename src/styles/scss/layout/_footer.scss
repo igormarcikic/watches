@@ -1,0 +1,106 @@
+footer {
+    text-align: center;
+    font-family: 'Lato';
+    background-color: $footer-bg;
+    position: relative;
+
+    
+
+    .footer-inner {
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &:before {
+            content : "";
+            position: absolute;
+            left    : 43%;
+            top  : 0;
+            height  : 5px;
+            width   : 200px;
+            border-top:10px solid lighten($main-color, 25%);
+          }
+
+        .column {
+            position: relative;
+            padding: 80px;
+            flex-basis: 300px;
+
+            &:nth-child(2):before {
+                content : "";
+                position: absolute;
+                left    : 0;
+                top     : 90px;
+                height  : 250px;
+                width   : 50%;
+                border-left:1px solid lighten($main-color, 30%);
+              }
+
+              &:nth-child(2):after {
+                content : "";
+                position: absolute;
+                right    : 0;
+                top     : 90px;
+                height  : 250px;
+                border-left:1px solid lighten($main-color, 30%);
+              }
+
+              .email-placeholder {
+                  position: relative;
+
+                  .fa-envelope {
+                      position: absolute;
+                      left: 30px;
+                      top: 15px;
+                      color: $secondary-color;
+                  }
+                  .fa-arrow-right {
+                    position: absolute;
+                    right: 30px;
+                    top: 15px;
+                    color: $main-color;
+                  }
+
+                .email-input {
+                    height: 50px;
+                    width: 350px;
+                    padding: 0 65px;
+                    box-sizing: border-box;
+                    
+                }
+    
+                ::placeholder { /* Internet Explorer */
+                    font-family: 'Lato';
+                    font-size: 12px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                  }
+
+              }
+
+              
+        }
+
+        ul {
+
+            li {
+                margin-bottom: 15px;
+                font-size: 18px;
+
+                &:nth-child(1) {
+                    font-family: 'Butler';
+                    font-weight: bold;
+                    font-size: 28px;
+                    letter-spacing: 3px;
+                    color: $secondary-color;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+
+        
+
+    }
+}
